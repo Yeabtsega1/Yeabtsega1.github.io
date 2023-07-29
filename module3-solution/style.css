@@ -1,0 +1,81 @@
+
+body {
+    background-color:#61122F !important;
+    position: relative
+    
+}
+
+  
+
+/** HEADER **/
+#header-nav {
+    
+    background-color: rgb(156, 143, 143);
+    border-radius: 0;
+    border: 2px solid black;   
+    height: 70px;
+}
+
+.navbar-brand {
+    font-size: large;
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 0;
+}
+
+.bg-lightgray {
+    background-color: lightgray ;
+}
+
+.navbar-toggler .navbar-light {
+    border-color: black;
+    
+}
+
+/* Center the collapsed menu */
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    margin-top: 20px;
+  }
+
+  .nav-item {
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid rgb(8, 5, 5);
+    width: 100%;
+    text-align: center;
+    color: black;
+    
+  }
+  
+/** END HEADER **/
+
+/** MAIN CONTENT **/
+.main content {
+    margin-top: 50px;
+}
+.menu {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.item {
+    border: 1px rgb(156, 143, 143);
+    text-align: center;
+    background-color: rgb(202, 193, 193);
+    padding: 10px 20px;
+    margin: 20px;
+}
+/** END MAIN CONTENT **/
+
+@media (max-width: 767px) { 
+    #content {
+      margin-top: 130px; 
+    }
+ }
